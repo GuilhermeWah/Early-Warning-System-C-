@@ -1,0 +1,15 @@
+#How the system works#
+
+The program analyzes 5 variables within the file “weather.dat”, this file contains 1 variable on
+each line with the first line having wind speed, second rainfall, third snowfall, fourth temperature
+and fifth has magnitude of a potential earthquake. These variables also get updated every hour
+and because of this all file lines will be the same length also the file lines cannot have more than
+24 values , ie...all lines will have the same number of values. When the program reads the file
+the only value that determines if there is a warning is the last value, this is because the last
+value in a line is the most recent value. Once the program is reading the file it will put the
+variable values into an array in the class weather. The class weather will store all the values in
+the file and has all the warning functions. These warning functions cover a variety of situations
+such as blizzard, high winds, or even flooding. The warning functions are only displayed when
+the variable values get too extreme. The program can also display a weather report of the day,
+and the user can choose to see all values in the file if they please. In addition it also checks for
+incorrect variable values such as a negative snowfall or rainfall value
